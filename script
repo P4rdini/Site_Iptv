@@ -1,0 +1,24 @@
+
+
+
+
+function getwhatsapp(){
+   /* var object = document.getElementById("whatsapp");
+    object.lotion.assign("https://api.whatsapp.com/send?phone=5511981874361");*/
+    window.open("https://api.whatsapp.com/send?phone=5511981874361");
+}
+
+function getScroll(){
+    console.log(window.pageYOffset);
+}
+
+function barraMenu(){
+    var barra = document.getElementById("barraMenu");
+    
+}
+
+window.addEventListener("scroll" , function(){
+    getScroll();
+})
+
+window.addEventListener("barraMenu" , )
